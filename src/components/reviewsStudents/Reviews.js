@@ -7,7 +7,7 @@ const Reviews = () => {
 
   return (
     <section>
-      <S.Container>
+      <S.Container id='feedback'>
         <S.SectionTitle>Feedback de nossos alunos</S.SectionTitle>
         <S.AllContent data-aos="fade-up-right">
           {DataReview &&

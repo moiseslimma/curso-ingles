@@ -11,4 +11,7 @@ export const GlobalStyle = createGlobalStyle`
     body {
         background-color: #f2f2f2;
     }
+    html{
+        scroll-behavior: smooth;
+    }
 `;

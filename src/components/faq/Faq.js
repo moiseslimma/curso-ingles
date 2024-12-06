@@ -6,7 +6,7 @@ const Faq = () => {
 
     return (
         <section>
-            <S.Container>
+            <S.Container id='faq'>
                 <S.SectionTitle>Dúvidas frequentes</S.SectionTitle>
                 <div>
                     {dataFaq.map(item=>(
